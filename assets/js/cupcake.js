@@ -17,7 +17,7 @@ var stores = [
     }
 ];
 
-$(document).ready(function(){
+//$(document).ready(function(){
 
 var onSuccess = function(position) {
     // alert('Latitude: '          + position.coords.latitude          + '\n' +
@@ -43,4 +43,4 @@ navigator.geolocation.getCurrentPosition(onSuccess, onError);
 
 
     
-});
+//});
